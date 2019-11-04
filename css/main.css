@@ -12,27 +12,34 @@ h2 {
   font-size: 4rem;
   color: white;
   background-color: rgba(0, 0, 0, .5);
+  text-align: left;
 }
 
 p {
   font-size: 2rem;
   color: black;
+  text-align: left;
 }
 
 .banner {
   max-width: 50em;
   position: absolute;
+  top: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .img-flex {
   display: block;
-}
-
-header {
-  position: relative;
-  max-height: 500px;
+  width: 100%;
 }
 
 section {
   overflow: hidden;
+  position: relative;
+  max-height: 500px;
+}
+
+.content {
+  text-align: center;
 }
