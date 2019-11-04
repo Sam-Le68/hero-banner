@@ -33,7 +33,7 @@ p {
   bottom: 2rem;
 }
 
-div img.img-flex {
+.img-flex {
   display: block;
   width: 100%;
 }
