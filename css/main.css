@@ -1,11 +1,15 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 h2 {
@@ -24,12 +28,12 @@ p {
 .banner {
   max-width: 50em;
   position: absolute;
-  top: 6rem;
   left: 50%;
   transform: translateX(-50%);
+  bottom: 2rem;
 }
 
-.img-flex {
+div img.img-flex {
   display: block;
   width: 100%;
 }
@@ -38,8 +42,4 @@ section {
   overflow: hidden;
   position: relative;
   max-height: 500px;
-}
-
-.content {
-  text-align: center;
 }
