@@ -1,8 +1,33 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h2 {
+  font-size: 4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+p {
+  font-size: 2rem;
+  color: black;
+}
+
+.banner {
+  max-width: 50em;
+}
+
+.img-flex {
+  display: block;
+}
+
+section {
+  position: relative;
+  max-height: 500px;
 }
