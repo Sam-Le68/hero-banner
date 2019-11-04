@@ -21,13 +21,14 @@ p {
 
 .banner {
   max-width: 50em;
+  position: absolute;
 }
 
 .img-flex {
   display: block;
 }
 
-section {
+header {
   position: relative;
   max-height: 500px;
 }
